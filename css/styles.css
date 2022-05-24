@@ -18,6 +18,7 @@ body {
   }
   
   .emoji a {
+    width: 95%;
     text-decoration: none;
     background-color: #781BAA;
     color: white;
@@ -37,7 +38,6 @@ body {
 
   .emoji :nth-child(1){
       order: 2;
-
   }
   .emoji :nth-child(2){
     order: 1;
@@ -51,4 +51,9 @@ body {
 .emoji :nth-child(4){
   order: 4;
 
+}
+
+p{
+  padding: 10px 0px 10px 0px ;
+  margin: auto; 
 }
